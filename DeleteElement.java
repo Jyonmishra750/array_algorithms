@@ -19,7 +19,8 @@ public class DeleteElement {
         System.out.print("Enter the element to be deleted: ");
         int x= sc.nextInt();
         int j = 0;
-        int arr2[] = new int[size-1];
+        int count=0;
+        int arr2[] = new int[size-count];
         
         for(int i = 0; i<size; i++)
         {
