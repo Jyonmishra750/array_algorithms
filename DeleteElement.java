@@ -31,7 +31,7 @@ public class DeleteElement {
             }
         }
         System.out.println("After deleting the element: ");
-        for(int i = 0; i<arr2.length; i++)
+        for(int i = 0; i<size-1; i++)
         {
             System.out.println("Elements are: "+arr2[i]);
         }
